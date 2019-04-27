@@ -30,7 +30,7 @@ public class ProjectServiceImpl implements ProjectService {
  
     @Override
     @Transactional
-    public void deleteProject(Integer projectId) {
+    public void deleteProject(int projectId) {
         projectDAO.deleteProject(projectId);
     }
  

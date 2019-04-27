@@ -10,7 +10,7 @@ public interface ProjectService {
  
     public List<Project> getAllProjects();
  
-    public void deleteProject(Integer projectId);
+    public void deleteProject(int projectId);
  
     public Project getProject(int projectid);
  

@@ -28,6 +28,8 @@ public class ProjectController {
     @Autowired
     private ProjectService projectService;
  
+    
+    //ERROR EN AQUEST MAPPING, NO EM DEIXA POSAR NOMES "/" PERQUE JA HI ÉS A "EmployeeController"??
     @RequestMapping(value = "/Project")
     public ModelAndView listProject(ModelAndView model) throws IOException {
         List<Project> listProject = projectService.getAllProjects();
