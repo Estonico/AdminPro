@@ -35,8 +35,7 @@ public class EmployeeController {
         model.setViewName("home");
         return model;
     }
- 
-    
+     
     @RequestMapping(value = "/newEmployee", method = RequestMethod.GET)
     public ModelAndView newContact(ModelAndView model) {
         Employee employee = new Employee();
